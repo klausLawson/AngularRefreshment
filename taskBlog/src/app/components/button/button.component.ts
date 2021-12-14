@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
+  model:any = {
+    left: true,
+    middle: false,
+    right: false
+  };
   constructor() { }
 
   ngOnInit(): void {
